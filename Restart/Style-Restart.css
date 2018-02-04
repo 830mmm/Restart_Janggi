@@ -1,0 +1,129 @@
+@font-face{
+     font-family:NanumBrush;
+     src: url(../NanumFont_TTF_ALL/NanumBrush.ttf);
+}
+@font-face{
+     font-family:NanumGothic;
+     src: url(../NanumFont_TTF_ALL/NanumGothic.ttf);
+}
+@font-face{
+     font-family:NanumPen;
+     src: url(../NanumFont_TTF_ALL/NanumPen.ttf);
+}
+@font-face{
+     font-family:Regular;
+     src: url(Regular.ttf);
+}
+body{
+    background-image: url(2color.jpg)
+}
+a{
+    text-decoration:none;
+    color:rgba(255,255,255,0.6);
+}
+a:hover{
+    color:white;
+    transition:all 0.3s;
+}
+/*------------------header태그------------------*/
+h1{
+    font-size:4rem;
+    text-align:center;
+}
+header{
+    border-bottom:3px solid white;
+    padding-bottom:10px;
+}
+/*------------------header 태그------------------*/
+/*------------------section 태그------------------*/
+section{
+    display:flex;
+    
+}
+/*------------------nav 태그------------------*/
+nav{
+    color:rgba(255,255,255,0.7);
+    font-family:NanumBrush;
+    font-size: 1.7rem;
+    padding-right:20px;
+    display:block;
+    border-radius:20px;
+    font-weight:550;
+    background-color:rgb(219, 86, 96);
+    margin-left:2px;
+}
+nav>ol{
+    margin-top:50px;
+}
+ul.paddingul{
+    padding-left:0px;
+    width:200px;
+}
+ul>ul>li{
+    list-style-type:none;
+}
+ul>ul{
+    padding-left:20px;
+}
+#seeornotsee{
+    position:fixed;
+    left:30px;
+    top:50px;
+    font-weight:500;
+    font-family:Regular;
+    font-size:1.3rem;
+    border-radius:10px;
+    border:0.5px solid rgba(255,255,255,0.6);
+    background-color:rgba(255,255,255,0.6);
+}
+h3{
+ margin-top:0;
+    margin-bottom:4px;
+    font-family:Regular;
+    font-weight:400!important;
+}
+/*nav태그*/
+/*------------------main 태그------------------*/
+main{
+    padding:20px 20px 20px 20px;
+    background-color:rgba(226, 104, 0, 0.39);
+    border-radius:20px;
+    box-shadow: 1px 1px rgba(226, 104, 0, 0.39);
+}
+main img{
+    width:320px;
+    border:3px solid beige;
+    border-radius:30px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 3px 3px rgba(226, 104, 0, 0.39);
+}
+#정중좌1{
+    margin-top:180px;
+}
+/*------------------main 태그------------------*/
+/*------------------aside 태그------------------*/
+aside p{
+    color:rgb(70, 70, 70);
+    font-family:Regular;
+    font-size:1.8rem;
+    padding-left: 20px;
+    margin:0;
+    padding-top:20px;
+    padding-right:20px;
+}
+aside{
+        border-radius:20px;
+       background-color:#d7e879;
+       margin-left:2px;
+        box-shadow: 1px 1px #d7e879;
+}
+span.color{
+    color:rgb(70, 70, 70);
+    text-shadow:-1.5px -1.5px snow, 1.5px 1.5px snow;
+}
+/*------------------aside 태그------------------*/
+/*------------------section 태그------------------*/
+/*------------------footer 태그------------------*/
+/*------------------footer 태그------------------*/
